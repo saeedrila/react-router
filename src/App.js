@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={()=>navigate('/about')} >About Page</button>
-      <button onClick={()=>navigate('/profile')} >Profile Page</button>
+      <button onClick={()=>navigate('/about')} style={{backgroundColor:'#E48586', color:"white", fontSize:'1.5rem', borderRadius:'5px'}}>About Page</button>
+      <button onClick={()=>navigate('/profile')} style={{backgroundColor:'#E48586', color:"white", fontSize:'1.5rem', borderRadius:'5px'}}>Profile Page</button>
       <AppContext.Provider value={{data:state}}>
         <Routes>
         <Route element={<About />} path='/about' />
