@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This project has been conducted for learning about router in react
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
